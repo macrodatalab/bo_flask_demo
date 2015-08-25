@@ -27,9 +27,9 @@ How to use :
 **todo.py**: a simple todo list demo
 
 	1. When the table "todo" does not exist, create it.
-	2. Push the button / Enter to add one row in BigObject as fellows: 
+	2. Push the "ADD" button or Enter to add one row in BigObject as fellows: 
 		"category", "title", "detail", "date", "completion"
-           The date and completion are randomly generated.
+          The date and completion are randomly generated.
 	3. The textarea 1 shows all data in BigObject.
 	   The textarea 2 shows the average completion based on different categories and weeks.
 
