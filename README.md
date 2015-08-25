@@ -24,7 +24,7 @@ How to use :
 3. use a browser to visit http://localhost:5000
 
     
-todo.py: a simple todo list demo
+**todo.py**: a simple todo list demo
 
 	1. When the table "todo" does not exist, create it.
 	2. Push the button / Enter to add one row in BigObject as fellows: 
@@ -33,9 +33,9 @@ todo.py: a simple todo list demo
 	3. The textarea 1 shows all data in BigObject.
 	   The textarea 2 show the average completion based on different categories and weeks.
 
-bo_restful.py: send statments to the BigObject server by restful API 
+**bo_restful.py**: send statments to the BigObject server by restful API 
 
-templates/todo.html : a html template to show data
+**templates/todo.html** : a html template to show data
 
 Refer to the full documentation [here](https://docs.bigobject.io/)
 
