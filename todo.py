@@ -20,7 +20,6 @@ def todo():
 	username = "testuser"
 	ping = bo_restful.shell_return(connargs , "" , "select * from todo limit 1")
 	if ping == "\"Object doesn't exist: table 'todo'\"":
-		ret = bo_restful.shell_return(connargs , "" , "drop table todo" )
 		ret = bo_restful.shell_return(connargs , "" , "create table todo(user STRING, category STRING , title STRING ,detail STRING, time DATETIME32, completion DOUBLE) ")
 		print("create table")
 
