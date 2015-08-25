@@ -1,5 +1,5 @@
 # bo_flask_demo
-A simple demo to demonstrate how to use BigObject by python flask framework
+A simple demo to demonstrate how to use BigObject by the python flask framework
 
 System requirements
 
@@ -31,7 +31,7 @@ How to use :
 		"category", "title", "detail", "date", "completion"
            The date and completion are randomly generated.
 	3. The textarea 1 shows all data in BigObject.
-	   The textarea 2 show the average completion based on different categories and weeks.
+	   The textarea 2 shows the average completion based on different categories and weeks.
 
 **bo_restful.py**: send statments to the BigObject server by restful API 
 
