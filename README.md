@@ -14,6 +14,7 @@ How to use :
 1. pull and run BigObject docker image
 
     docker pull macrodata/bigobject
+    
     docker run -t -d --name bigobject -p 9090:9090 macrodata/bigobject
 
 2. run the demo
